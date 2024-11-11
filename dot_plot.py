@@ -16,7 +16,6 @@ fig, ax = plt.subplots(figsize=(10, 6))
 
 # Loop over each patient to create a line for their timeline
 for i, row in df.iterrows():
-    patient = row['Patient name']
     start = row['Arrived at hospital']
     end = row['Left hospital']
     
